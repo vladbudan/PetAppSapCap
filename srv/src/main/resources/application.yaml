@@ -1,0 +1,14 @@
+---
+Debug : true
+spring:
+  datasource:
+    url: jdbc:sqlite:sqlite.db
+    driver-class-name: org.sqlite.JDBC
+    hikari:
+      maximum-pool-size: 1
+  sql:
+    init:
+      mode: never
+  config:
+    activate:
+      on-profile:
