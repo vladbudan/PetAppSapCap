@@ -1,0 +1,7 @@
+---
+applications:
+  - name: petsApp
+    path: srv/target/petsApp-exec.jar
+    random-route: true
+    services:
+      - pets

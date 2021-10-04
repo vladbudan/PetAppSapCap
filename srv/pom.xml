@@ -32,6 +32,11 @@
 			<artifactId>sqlite-jdbc</artifactId>
 		</dependency>
 
+		<dependency>
+			<groupId>com.sap.cds</groupId>
+			<artifactId>cds-feature-hana</artifactId>
+		</dependency>
+
 		<!-- LOMBOK  -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
